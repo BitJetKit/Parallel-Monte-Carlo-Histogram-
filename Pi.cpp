@@ -1,5 +1,8 @@
 /* Programming_Assignment2*/
 // Monte Carlo method
+// Author: @BitJetKit
+// Purpose: Calculate Pi: Use the Monte Carlo method and a histogram.
+// Date: QIV 2016
 
 #include <stdio.h>
 #include <stdlib.h>
