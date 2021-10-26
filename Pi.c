@@ -72,9 +72,6 @@ int main(int argc, char* argv[]){
      }
 		     
 	MPI_Reduce(&number_in_circle, &reducedCount, 1 , MPI_INT, MPI_SUM, 0, comm);
-	//	MPI_Reduce(&number_of_tosses, reducedTosses, number_of_tosses, MPI_INT, MPI_SUM, 0, comm);
-
-	// reducedTosses -= number_of_tosses;
 
 	pi_estimate = 4*reducedCount/((double) number_of_tosses);
 	
