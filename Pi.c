@@ -3,7 +3,7 @@
 // Author: @BitJetKit
 // Purpose: Calculate Pi: Use the Monte Carlo method and a histogram.
 // License: 
-/* Copyright 2016 Jonthan M. Kelly
+/* Copyright 2022 Bit Jet Kit
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
